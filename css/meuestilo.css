@@ -1,0 +1,111 @@
+* {
+  padding: 10px;
+  margin: 12px;
+}
+
+#corpoPagina {
+  background-color: black;
+  background-image: url("/img/fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#fundoForm {
+
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.151);
+
+  border-radius: 25px;
+}
+
+a {
+  color: rgb(10, 0, 0);
+  font-size: 14px;
+  margin-left: 60%;
+}
+
+a:hover {
+  color: yellow;
+  font-weight: 900;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+a:link:hover {
+  color: rgb(0, 0, 0);
+}
+
+a:active {
+  color: rgb(0, 0, 0);
+}
+
+a:active:hover {
+  color: rgb(0, 0, 0);
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+a:visited:hover {
+  color: rgb(255, 255, 255);
+}
+
+* {
+  padding: 10px;
+  margin: 12px;
+}
+
+#corpoPagina {
+  background-color: black;
+  background-image: url("img/fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#fundoForm {
+
+  width: 50%;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+a:hover {
+  color: yellow;
+  font-weight: 900;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+a:link:hover {
+  color: rgb(0, 0, 0);
+}
+
+a:active {
+  color: rgb(0, 0, 0);
+}
+
+a:active:hover {
+  color: rgb(0, 0, 0);
+}
+
+a:visited {
+  color: rgb(246, 246, 246);
+}
+
+a:visited:hover {
+  color: rgb(230, 247, 3);
+}
+
+.imagens {
+  align-items: center;
+}

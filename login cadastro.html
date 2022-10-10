@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/meuestilo.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-reboot.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-utilities.css">
+  <title>Cadastro</title>
+</head>
+
+<body id="corpoPagina" class="container">
+  <div id="fundoForm" class="container">
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+      Faça seu cadastro.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <form id="formAcesso" class="container">
+      <div class="mb-3">
+        <input autocomplete="off" placeholder="Nome" type="text" class="form-control" id="login" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <input autocomplete="off" placeholder="Login" type="text" class="form-control" id="login" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <input placeholder="Senha" type="password" class="form-control" id="senha" minlength="8" maxlength="12">
+      </div>
+      <div class="mb-3">
+        <input placeholder="Repita a senha" type="password" minlength="8" maxlength="12" class="form-control" id="senha">
+      </div>
+      <button type="submit" class="btn btn-primary">
+        Entrar
+      </button>
+    </form>
+  </div>
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/popper.js/dist/popper.js"></script>
+</body>
+
+</html>

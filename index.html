@@ -15,34 +15,26 @@
 
 <body id="corpoPagina" class="container">
     <div id="fundoForm" class="container">
-        <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            <strong>Atenção! </strong> Identifique-se!
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>
+        
         <form id="formAcesso" class="container">
             <div class="mb-3">
-                <input autocomplete="off" placeholder="Login" type="text" class="form-control" id="login" aria-describedby="emailHelp">
+                <input autocomplete="off" placeholder="Login" type="text" class="form-control" id="login"
+                    aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
-                <input placeholder="Senha" type="password" class="form-control" id="senha">
+                <input placeholder="Senha" type="password" class="form-control" id="senha" minlength="6" maxlength="15">
             </div>
-            <div id="recuperarSenha" class="form-text">
-                <a href="./Nova senha.html">
-                    Recuperar senha.
+            <div id="recuperarSenha">
+                <a class="formText" href="./Nova senha.html">
+                    Recuperar senha
                 </a>
             </div>
-            <button type="submit" class="btn btn-primary">
+            <button type="submit" class="btn btn-primary" id="entrar">
                 Entrar
             </button>
-            <form action="./login cadastro.html">
-
-                <button type="submit" class="btn btn-primary">
-                    <a href="./login cadastro.html">
-                        Cadastrar
-                    </a>
-                </button>
-
-            </form>
+                <a class="btn btn-primary" href="login cadastro.html" role="button">
+                    Cadastrar
+                </a>
         </form>
     </div>
 
